@@ -6,6 +6,43 @@ header{
     padding:0 15px ;
     margin: 0 auto;
 }
+.ul-header{
+display: flex;
+align-items: center;
+}
+.li-main-header{
+    font-family: Roboto;
+    font-weight: Regular;
+    padding-left: 70px;
+    padding-right: 10px;
+    font-style: normal;
+font-weight: 300;
+line-height: 28px;
+}
+.li-header{
+display: flex;
+align-items: center;
+margin: 20px;
+font-family: Roboto;
+font-weight: Light;
+/* Advantages */
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+
+color: #C7C7C7;
+}
+.a-header{
+color: #C7C7C7;
+}
+.img-header{
+    width: 100px;
+    height: 60px;
+}
+.flex-class{
+    display: flex;
+    justify-content: space-between;
+}
 .ul-s1{
 display: flex;
 align-items: center;
