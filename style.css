@@ -43,20 +43,150 @@ color: #C7C7C7;
     display: flex;
     justify-content: space-between;
 }
+.section-1{
+    height: 858px;
+    background-image: url(./img/baground-s1.webp);
+    background-repeat: no-repeat;
+}
 .ul-s1{
 display: flex;
 align-items: center;
 }
-.li-s1{
-font-family: Roboto;
-font-weight: Regular;
-display: flex;
-align-items: center;
-justify-content: center;
+.s1-img{
+    padding-top: 70px;
+}
+.s1-p-1{
+/* С&R */
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 64px;
+color: #FFFFFF;
+}
+
+.s1-h1{
+/* ColoRawe */
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 92px;
+line-height: 100px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.s1-p-2{
+    /* Your dream Nike */
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 70px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.s1-p-3{
+    /* On this site you can find custom Nike sneakers of your dreams. The original company caт`t create such beautiful sneakers as we do. Good luck finding your way in the world of custom sneakers. */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+margin-top: 10px;
 }
 .a-s1{
 
 }
-.img-s1{
+.s1-button{
+/* Group 13 */
+margin-top: 45px;
+width: 254px;
+height: 67px;
+background-color: #8E32C6;
+color: #FFFFFF;
+border-radius: 10px;
+/* Buy my Nike */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+.section-2{
+height: 606px;
+background-image: url(./img/baground-s2.png);
+background-repeat: no-repeat;
+}
+.s2-ul{
+display: flex;
+justify-content: space-around;
+/* Vector 1 */
+border: 5px solid #8E32C6;
+}
+.s2-li{
+
+}
+.s2-p{
+
+}
+.s2-p-1{
+/* Premium Quality */
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+.s2-p-2{
+/* Indelible paint */
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+}
+.s2-p-3{
+/* Fast shipping */
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+.s2-img{
+
+}
+.s2-img-1{
+
+}
+.s2-img-2{
+
+}
+.s2-img-3{
+
+}
+.section-4{
+    height: 509px;
+background-image: url(./img/baground-s4.webp);
+background-repeat: no-repeat;
+}
+.s4-h2{
+
+}
+.s4-form{
+
+}
+.s4-input{
+    display: block;
+}
+.s4-button{
 
 }
