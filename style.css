@@ -190,7 +190,8 @@ color: #FFFFFF;
     padding-bottom: 115px;
     background-image:url(./img/flowers.webp), url(./img/baground-s3.webp);
     background-repeat: no-repeat,no-repeat;
-    background-size: contain,cover;
+    background-position: bottom left;
+    background-size: 150px,cover;
 }
 .s3-h2{
     /* Reviews */
@@ -249,22 +250,96 @@ font-size: 24px;
 line-height: 28px;
 color: #FFFFFF;
 }
+.s3-img{
+padding-top: 47px;
+}
+.s3-day{
+    padding-top: 8px;
+    /* 25.11 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #D8D8D8;
+}
+.s3-name{
+    /* John Teylor */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
+.s3-date{
+    /* With us from 2018 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+color: #D8D8D8;
+}
 .section-4{
 padding-top: 20px;
-padding-bottom: 37px;
+padding-bottom: 34px;
 background-image: url(./img/baground-s4.webp);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: contain;
 }
 .s4-h2{
-
+    display: flex;
+    justify-content: center;
+/* Order */
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+color: #FFFFFF;
 }
 .s4-form{
-
 }
 .s4-input{
     display: block;
+    margin-top: 20px;
+    /* Rectangle 19 */
+width: 580px;
+height: 40px;
+background: #FFFFFF;
+border-radius: 50px;
+padding-left: 25px;
+}
+.s4-another{
+    margin-left: 280px;
+}
+.s4-email{
+    margin-left: 230px;
+    /* Rectangle 18 */
+width: 690px;
+height: 45px;
+background: #FFFFFF;
+border-radius: 50px;
 }
 .s4-button{
-
+ margin-top: 20px;
+ /* Group 11 */
+width: 248px;
+height: 63px;
+background-color: #8E32C6;
+/* Order my Nike */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+border-radius: 16px;
+margin-left: 434px;
+}
+.footer{
+    background-color: #021635;
 }
