@@ -214,7 +214,7 @@ margin-bottom: 25px;
 }
 .s3-li-1{
     border-radius: 15px;
-box-shadow: 0px 30px 0px -13px rgb(83, 57, 120),0px 14px 0px -5px rgb(123, 84, 179);
+box-shadow: 0px 14px 0px -5px rgb(123, 84, 179),0px 30px 0px -13px rgb(83, 57, 120);
 background: linear-gradient(135.00deg, rgb(0, 229, 230) 7.292%,rgb(0, 168, 247) 26.042%,rgb(154, 118, 249) 62.5%,rgb(204, 94, 194) 100%);
 padding-top:50px ;
 padding-bottom: 30px;
@@ -225,7 +225,7 @@ padding-left:13px ;
 box-sizing: border-box;
 border: 1px solid rgb(0, 0, 0);
 border-radius: 15px;
-box-shadow: 0px 30px 0px -13px rgb(97, 51, 124),0px 14px 0px -5px rgb(145, 89, 177);
+box-shadow: 0px 14px 0px -5px rgb(145, 89, 177),0px 30px 0px -13px rgb(97, 51, 124);
 background: linear-gradient(135.00deg, rgb(255, 104, 180) 0%,rgb(255, 69, 225) 26.042%,rgb(206, 58, 255) 62.841%,rgb(137, 97, 255) 100%);
 padding-top:50px ;
 padding-bottom: 30px;
@@ -238,7 +238,7 @@ padding-bottom: 30px;
 padding-right:14px ;
 padding-left:13px ;
 border-radius: 15px;
-box-shadow: 0px 30px 0px -13px rgb(115, 47, 38),0px 14px 0px -5px rgb(185, 90, 76);
+box-shadow: 0px 14px 0px -5px rgb(185, 90, 76),0px 30px 0px -13px rgb(115, 47, 38);
 background: linear-gradient(135.00deg, rgb(255, 225, 40) 0%,rgb(255, 155, 92) 30.208%,rgb(255, 131, 129) 63.286%,rgb(255, 84, 137) 100%);
 }
 .s3-p{
@@ -251,7 +251,7 @@ line-height: 28px;
 color: #FFFFFF;
 }
 .s3-img{
-padding-top: 47px;
+
 }
 .s3-day{
     padding-top: 8px;
@@ -273,6 +273,7 @@ line-height: 16px;
 color: #FFFFFF;
 }
 .s3-date{
+    margin-top: 3px;
     /* With us from 2018 */
 font-family: 'Roboto';
 font-style: normal;
@@ -281,6 +282,9 @@ font-size: 12px;
 line-height: 14px;
 /* identical to box height */
 color: #D8D8D8;
+}
+.group-2{
+    margin-left: 5px;
 }
 .section-4{
 padding-top: 20px;
@@ -341,5 +345,96 @@ border-radius: 16px;
 margin-left: 434px;
 }
 .footer{
+    padding-top: 45px;
+    padding-bottom: 50px;
     background-color: #021635;
+}
+.footer-li{
+    /* Have a question? */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.footer-a{
+/* Have a question? */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.footer-a-email{
+    /* ColoRawe_support@gmail.com */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+color: #FFFFFF;
+}
+.footer-li-rights{
+    /* 2022 ColoRawe @All rights reserved */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.footer-li-logo{
+font-family: 'PT Serif';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+.group{
+    display: flex;
+    margin-top: 47px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-div-2{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+}
+.footer-img{
+width: 100px;
+height: 70px;
+}
+.footer-li-rights:last-child{
+    margin-top: 10px;
+}
+.footer-ul-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer-ul-3{
+padding-top: 27px;
+}
+.s4-span{
+    position: relative;
+}
+.s4-span-1{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #8D8D8D;
+    font-size: 28px;
+    position: absolute;
+    right: 250px;
+    top: 8px;
 }
