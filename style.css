@@ -29,11 +29,12 @@ font-weight: Light;
 font-style: normal;
 font-weight: 300;
 line-height: 28px;
-
-color: #C7C7C7;
 }
 .a-header{
 color: #C7C7C7;
+}
+.a-header:hover{
+color: #FFFFFF;
 }
 .img-header{
     width: 100px;
@@ -433,8 +434,8 @@ padding-top: 27px;
     font-family: "Roboto";
     font-weight: 400;
     color: #8D8D8D;
-    font-size: 28px;
+    font-size: 23px;
     position: absolute;
     right: 250px;
-    top: 8px;
+    top: 10px;
 }
