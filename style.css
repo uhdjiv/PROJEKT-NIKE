@@ -115,6 +115,12 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
+cursor: pointer;
+}
+.s1-button:hover{
+    color:#5b0000 ;
+    font-size: 22px;
+    transition: 1s;
 }
 .section-2{
 background-image: url(./img/baground-s2.png);
@@ -344,6 +350,12 @@ line-height: 28px;
 color: #FFFFFF;
 border-radius: 16px;
 margin-left: 434px;
+cursor: pointer;
+}
+.s4-button:hover{
+       color:#5b0000 ;
+    font-size: 26px;
+    transition: 1s;
 }
 .footer{
     padding-top: 45px;
