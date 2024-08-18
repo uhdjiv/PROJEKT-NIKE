@@ -116,6 +116,9 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 cursor: pointer;
+display: block;
+text-align: center;
+padding-top: 20px;
 }
 .s1-button:hover{
     color:#5b0000 ;
